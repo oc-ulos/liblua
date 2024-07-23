@@ -291,7 +291,6 @@ function lib.setpid(what, id, gid)
   return 0
 end
 
--- no unistd.sleep right now
 function lib.sleep(n)
   local uptime = sys.uptime()
   local max = uptime + n

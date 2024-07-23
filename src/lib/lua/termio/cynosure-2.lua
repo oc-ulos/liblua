@@ -16,7 +16,7 @@ function handler.setRaw(raw)
 end
 
 function handler.cursorVisible(yesno)
-  io.write(yesno and "\27[25h" or "\27[25l")
+  io.write(yesno and "\27[?25h" or "\27[?25l")
   io.flush()
 end
 

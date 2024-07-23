@@ -20,4 +20,5 @@
   ENOTSUP     = "Operation not supported",
   ENOSYS      = "Function not implemented",
   ENOTEMPTY   = "Directory is not empty",
+  ELOOP       = "Too many symbolic link levels",
 }

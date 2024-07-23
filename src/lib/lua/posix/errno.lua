@@ -23,6 +23,7 @@ local map = {
   [25]  = "ENOTTY",
   [38]  = "ENOSYS",
   [39]  = "ENOTEMPTY",
+  [40]  = "ELOOP",
   [49]  = "EUNATCH",
   [83]  = "ELIBEXEC",
   [92]  = "ENOPROTOOPT",
